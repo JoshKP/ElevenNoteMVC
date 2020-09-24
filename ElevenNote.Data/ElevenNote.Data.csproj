@@ -59,6 +59,10 @@
     <Compile Include="Migrations\202009241430345_restart.Designer.cs">
       <DependentUpon>202009241430345_restart.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009241746154_fixing migration.cs" />
+    <Compile Include="Migrations\202009241746154_fixing migration.Designer.cs">
+      <DependentUpon>202009241746154_fixing migration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,6 +74,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202009241430345_restart.resx">
       <DependentUpon>202009241430345_restart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009241746154_fixing migration.resx">
+      <DependentUpon>202009241746154_fixing migration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
